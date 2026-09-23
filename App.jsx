@@ -3,12 +3,8 @@ import Landing from './pages/Landing.jsx'
 import Apply from './pages/Apply.jsx'
 import Reveal from './pages/Reveal.jsx'
 import Dashboard from './pages/Dashboard.jsx'
-import { supabase } from "./lib/supabaseClient";
-
-
 
 export default function App() {
-  console.log("Supabase connected:", supabase);
   return (
     <Routes>
       {/* The "convincing" pages a target would see */}
