@@ -1,0 +1,22 @@
+{
+  "name": "phishing-awareness-sim",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "description": "Authorized phishing-awareness training simulation (educational). Fictional loan brand, credential-capture demo, and a post-submission phishing reveal.",
+  "scripts": {
+    "dev": "vite --host",
+    "build": "vite build",
+    "preview": "vite preview --host"
+  },
+  "dependencies": {
+    "@supabase/supabase-js": "^2.109.0",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "react-router-dom": "^7.18.4"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-react": "^4.3.1",
+    "vite": "^5.4.21"
+  }
+}
